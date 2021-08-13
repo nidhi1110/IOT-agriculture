@@ -1,0 +1,882 @@
+{
+  "title": "Agriculture_data",
+  "image": null,
+  "mobileHide": false,
+  "mobileOrder": null,
+  "configuration": {
+    "widgets": {
+      "f5389c91-ce52-4e94-3144-01476e14703d": {
+        "isSystemType": true,
+        "bundleAlias": "digital_gauges",
+        "typeAlias": "horizontal_bar_justgage",
+        "type": "latest",
+        "title": "Horizontal bar",
+        "sizeX": 14,
+        "sizeY": 6,
+        "row": 0,
+        "col": 3,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "name": null,
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "filterId": null,
+              "dataKeys": [
+                {
+                  "name": "humidity",
+                  "label": "humidity",
+                  "type": "attribute",
+                  "color": "#21f387",
+                  "settings": {},
+                  "_hash": 0.49218475959329333
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "#ffffff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "maxValue": 100,
+            "minValue": 0,
+            "donutStartAngle": 90,
+            "showValue": true,
+            "showMinMax": true,
+            "gaugeWidthScale": 0.75,
+            "levelColors": [],
+            "titleFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#999999"
+            },
+            "labelFont": {
+              "family": "Roboto",
+              "size": 8,
+              "style": "normal",
+              "weight": "500"
+            },
+            "valueFont": {
+              "family": "Roboto",
+              "style": "normal",
+              "weight": "500",
+              "size": 18,
+              "color": "#666666"
+            },
+            "minMaxFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#666666"
+            },
+            "neonGlowBrightness": 0,
+            "dashThickness": 0,
+            "gaugeColor": "#eeeeee",
+            "showTitle": true,
+            "gaugeType": "horizontalBar",
+            "timestampFormat": "yyyy-MM-dd HH:mm:ss",
+            "animation": true,
+            "animationDuration": 500,
+            "animationRule": "linear"
+          },
+          "title": "Horizontal bar",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          }
+        },
+        "id": "f5389c91-ce52-4e94-3144-01476e14703d"
+      },
+      "ab3c0c4f-e7de-0d90-545f-2627b978d0ee": {
+        "isSystemType": true,
+        "bundleAlias": "digital_gauges",
+        "typeAlias": "horizontal_bar_justgage",
+        "type": "latest",
+        "title": "Horizontal bar",
+        "sizeX": 14,
+        "sizeY": 6,
+        "row": 0,
+        "col": 3,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "name": null,
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "filterId": null,
+              "dataKeys": [
+                {
+                  "name": "light_intensity",
+                  "label": "light_intensity",
+                  "type": "attribute",
+                  "color": "#b30daa",
+                  "settings": {},
+                  "_hash": 0.31949269749691167
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "#ffffff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "minValue": 0,
+            "donutStartAngle": 90,
+            "showValue": true,
+            "showMinMax": true,
+            "gaugeWidthScale": 0.75,
+            "levelColors": [],
+            "titleFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#999999"
+            },
+            "labelFont": {
+              "family": "Roboto",
+              "size": 8,
+              "style": "normal",
+              "weight": "500"
+            },
+            "valueFont": {
+              "family": "Roboto",
+              "style": "normal",
+              "weight": "500",
+              "size": 18,
+              "color": "#666666"
+            },
+            "minMaxFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#666666"
+            },
+            "neonGlowBrightness": 0,
+            "dashThickness": 0,
+            "gaugeColor": "#eeeeee",
+            "showTitle": true,
+            "gaugeType": "horizontalBar",
+            "timestampFormat": "yyyy-MM-dd HH:mm:ss",
+            "animation": true,
+            "animationDuration": 500,
+            "animationRule": "linear",
+            "maxValue": 200
+          },
+          "title": "Horizontal bar",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          }
+        },
+        "id": "ab3c0c4f-e7de-0d90-545f-2627b978d0ee"
+      },
+      "1d09e218-be18-a04c-7cc8-402c118d6238": {
+        "isSystemType": true,
+        "bundleAlias": "digital_gauges",
+        "typeAlias": "horizontal_bar_justgage",
+        "type": "latest",
+        "title": "Horizontal bar",
+        "sizeX": 14,
+        "sizeY": 6,
+        "row": 0,
+        "col": 3,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "name": null,
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "filterId": null,
+              "dataKeys": [
+                {
+                  "name": "temperature",
+                  "label": "temperature",
+                  "type": "attribute",
+                  "color": "#f60606",
+                  "settings": {},
+                  "_hash": 0.21624158128809223
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "#ffffff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "maxValue": 100,
+            "minValue": 0,
+            "donutStartAngle": 90,
+            "showValue": true,
+            "showMinMax": true,
+            "gaugeWidthScale": 0.75,
+            "levelColors": [],
+            "titleFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#999999"
+            },
+            "labelFont": {
+              "family": "Roboto",
+              "size": 8,
+              "style": "normal",
+              "weight": "500"
+            },
+            "valueFont": {
+              "family": "Roboto",
+              "style": "normal",
+              "weight": "500",
+              "size": 18,
+              "color": "#666666"
+            },
+            "minMaxFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#666666"
+            },
+            "neonGlowBrightness": 0,
+            "dashThickness": 0,
+            "gaugeColor": "#eeeeee",
+            "showTitle": true,
+            "gaugeType": "horizontalBar",
+            "timestampFormat": "yyyy-MM-dd HH:mm:ss",
+            "animation": true,
+            "animationDuration": 500,
+            "animationRule": "linear"
+          },
+          "title": "Horizontal bar",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          }
+        },
+        "id": "1d09e218-be18-a04c-7cc8-402c118d6238"
+      },
+      "659577e9-8a39-bb11-d50a-e3838d494fc6": {
+        "isSystemType": true,
+        "bundleAlias": "digital_gauges",
+        "typeAlias": "horizontal_bar_justgage",
+        "type": "latest",
+        "title": "Horizontal bar",
+        "sizeX": 14,
+        "sizeY": 6,
+        "row": 0,
+        "col": 3,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "dataKeys": [
+                {
+                  "name": "air_quality",
+                  "label": "air_quality",
+                  "type": "attribute",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.6022510186215646
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "#ffffff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "maxValue": 100,
+            "minValue": 0,
+            "donutStartAngle": 90,
+            "showValue": true,
+            "showMinMax": true,
+            "gaugeWidthScale": 0.75,
+            "levelColors": [],
+            "refreshAnimationType": ">",
+            "refreshAnimationTime": 700,
+            "startAnimationType": ">",
+            "startAnimationTime": 700,
+            "titleFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#999999"
+            },
+            "labelFont": {
+              "family": "Roboto",
+              "size": 8,
+              "style": "normal",
+              "weight": "500"
+            },
+            "valueFont": {
+              "family": "Roboto",
+              "style": "normal",
+              "weight": "500",
+              "size": 18,
+              "color": "#666666"
+            },
+            "minMaxFont": {
+              "family": "Roboto",
+              "size": 12,
+              "style": "normal",
+              "weight": "500",
+              "color": "#666666"
+            },
+            "neonGlowBrightness": 0,
+            "decimals": 0,
+            "dashThickness": 0,
+            "gaugeColor": "#eeeeee",
+            "showTitle": true,
+            "gaugeType": "horizontalBar"
+          },
+          "title": "Horizontal bar",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          }
+        },
+        "id": "659577e9-8a39-bb11-d50a-e3838d494fc6"
+      },
+      "8a944f39-5708-63e5-9088-2285ae08af5c": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "New widget",
+        "image": null,
+        "description": null,
+        "sizeX": 8,
+        "sizeY": 5,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "name": null,
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "filterId": null,
+              "dataKeys": [
+                {
+                  "name": "air_quality",
+                  "type": "timeseries",
+                  "label": "air_quality",
+                  "color": "#2196f3",
+                  "settings": {
+                    "excludeFromStacking": false,
+                    "hideDataByDefault": false,
+                    "disableDataHiding": false,
+                    "removeFromLegend": false,
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "showPointShape": "circle",
+                    "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                    "showPointsLineWidth": 5,
+                    "showPointsRadius": 3,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": "",
+                    "thresholds": [
+                      {
+                        "thresholdValueSource": "predefinedValue"
+                      }
+                    ],
+                    "comparisonSettings": {
+                      "showValuesForComparison": true,
+                      "comparisonValuesLabel": "",
+                      "color": ""
+                    }
+                  },
+                  "_hash": 0.6081556874079339
+                },
+                {
+                  "name": "humidity",
+                  "type": "timeseries",
+                  "label": "humidity",
+                  "color": "#4caf50",
+                  "settings": {
+                    "excludeFromStacking": false,
+                    "hideDataByDefault": false,
+                    "disableDataHiding": false,
+                    "removeFromLegend": false,
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "showPointShape": "circle",
+                    "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                    "showPointsLineWidth": 5,
+                    "showPointsRadius": 3,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": "",
+                    "thresholds": [
+                      {
+                        "thresholdValueSource": "predefinedValue"
+                      }
+                    ],
+                    "comparisonSettings": {
+                      "showValuesForComparison": true,
+                      "comparisonValuesLabel": "",
+                      "color": ""
+                    }
+                  },
+                  "_hash": 0.48067128645660184
+                },
+                {
+                  "name": "light_intensity",
+                  "type": "timeseries",
+                  "label": "light_intensity",
+                  "color": "#a803f8",
+                  "settings": {
+                    "excludeFromStacking": false,
+                    "hideDataByDefault": false,
+                    "disableDataHiding": false,
+                    "removeFromLegend": false,
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "showPointShape": "circle",
+                    "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                    "showPointsLineWidth": 5,
+                    "showPointsRadius": 3,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": "",
+                    "thresholds": [
+                      {
+                        "thresholdValueSource": "predefinedValue"
+                      }
+                    ],
+                    "comparisonSettings": {
+                      "showValuesForComparison": true,
+                      "comparisonValuesLabel": "",
+                      "color": ""
+                    }
+                  },
+                  "_hash": 0.6827875741110492
+                },
+                {
+                  "name": "temperature",
+                  "type": "timeseries",
+                  "label": "temperature",
+                  "color": "#ff0707",
+                  "settings": {
+                    "excludeFromStacking": false,
+                    "hideDataByDefault": false,
+                    "disableDataHiding": false,
+                    "removeFromLegend": false,
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "showPointShape": "circle",
+                    "pointShapeFormatter": "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                    "showPointsLineWidth": 5,
+                    "showPointsRadius": 3,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": "",
+                    "thresholds": [
+                      {
+                        "thresholdValueSource": "predefinedValue"
+                      }
+                    ],
+                    "comparisonSettings": {
+                      "showValuesForComparison": true,
+                      "comparisonValuesLabel": "",
+                      "color": ""
+                    }
+                  },
+                  "_hash": 0.954021490007428
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "stack": false,
+            "tooltipIndividual": true,
+            "timeForComparison": "previousInterval",
+            "xaxisSecond": {
+              "axisPosition": "top",
+              "showLabels": true
+            },
+            "smoothLines": false
+          },
+          "title": "New Timeseries Line Chart",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true
+        },
+        "row": 0,
+        "col": 0,
+        "id": "8a944f39-5708-63e5-9088-2285ae08af5c"
+      },
+      "0f7bee53-6ad1-b399-2a08-ea022d8d9abc": {
+        "isSystemType": true,
+        "bundleAlias": "cards",
+        "typeAlias": "simple_card",
+        "type": "latest",
+        "title": "Simple card",
+        "sizeX": 10,
+        "sizeY": 6,
+        "row": 0,
+        "col": 5,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "dataKeys": [
+                {
+                  "name": "time",
+                  "label": "time",
+                  "type": "attribute",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.6103008679998212
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "#ff5722",
+          "color": "rgba(255, 255, 255, 0.87)",
+          "padding": "16px",
+          "settings": {
+            "labelPosition": "top"
+          },
+          "title": "Simple card",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "units": "°C",
+          "decimals": 0,
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "widgetStyle": {},
+          "actions": {}
+        },
+        "id": "0f7bee53-6ad1-b399-2a08-ea022d8d9abc"
+      },
+      "0ab66ed7-d2e9-8069-57ef-63279a261235": {
+        "isSystemType": true,
+        "bundleAlias": "cards",
+        "typeAlias": "simple_card",
+        "type": "latest",
+        "title": "Simple card",
+        "sizeX": 10,
+        "sizeY": 6,
+        "row": 0,
+        "col": 5,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "name": null,
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "filterId": null,
+              "dataKeys": [
+                {
+                  "name": "sky",
+                  "label": "sky",
+                  "type": "attribute",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.7677124781161866
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "rgba(34,179,255,0.64)",
+          "color": "rgba(255, 255, 255, 0.87)",
+          "padding": "16px",
+          "settings": {
+            "labelPosition": "top"
+          },
+          "title": "Simple card",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "units": "°C",
+          "decimals": 0,
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "widgetStyle": {},
+          "actions": {},
+          "showTitleIcon": false,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": ""
+        },
+        "id": "0ab66ed7-d2e9-8069-57ef-63279a261235"
+      },
+      "2155436d-02be-adb1-a3f4-50434399d917": {
+        "isSystemType": true,
+        "bundleAlias": "cards",
+        "typeAlias": "simple_card",
+        "type": "latest",
+        "title": "Simple card",
+        "sizeX": 10,
+        "sizeY": 6,
+        "row": 0,
+        "col": 5,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "entityAliasId": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+              "dataKeys": [
+                {
+                  "name": "wind",
+                  "label": "wind",
+                  "type": "attribute",
+                  "color": "#2196f3",
+                  "settings": {},
+                  "_hash": 0.3502142720301269
+                }
+              ]
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": false,
+          "backgroundColor": "#ff5722",
+          "color": "rgba(255, 255, 255, 0.87)",
+          "padding": "16px",
+          "settings": {
+            "labelPosition": "top"
+          },
+          "title": "Simple card",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "units": "°C",
+          "decimals": 0,
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "widgetStyle": {},
+          "actions": {}
+        },
+        "id": "2155436d-02be-adb1-a3f4-50434399d917"
+      }
+    },
+    "states": {
+      "default": {
+        "name": "Agriculture_data",
+        "root": true,
+        "layouts": {
+          "main": {
+            "widgets": {
+              "f5389c91-ce52-4e94-3144-01476e14703d": {
+                "sizeX": 7,
+                "sizeY": 3,
+                "row": 0,
+                "col": 0
+              },
+              "ab3c0c4f-e7de-0d90-545f-2627b978d0ee": {
+                "sizeX": 7,
+                "sizeY": 3,
+                "row": 3,
+                "col": 0
+              },
+              "1d09e218-be18-a04c-7cc8-402c118d6238": {
+                "sizeX": 7,
+                "sizeY": 3,
+                "row": 6,
+                "col": 0
+              },
+              "659577e9-8a39-bb11-d50a-e3838d494fc6": {
+                "sizeX": 7,
+                "sizeY": 3,
+                "row": 9,
+                "col": 0
+              },
+              "8a944f39-5708-63e5-9088-2285ae08af5c": {
+                "sizeX": 17,
+                "sizeY": 10,
+                "row": 2,
+                "col": 7
+              },
+              "0f7bee53-6ad1-b399-2a08-ea022d8d9abc": {
+                "sizeX": 5,
+                "sizeY": 2,
+                "row": 0,
+                "col": 7
+              },
+              "0ab66ed7-d2e9-8069-57ef-63279a261235": {
+                "sizeX": 4,
+                "sizeY": 2,
+                "row": 0,
+                "col": 12
+              },
+              "2155436d-02be-adb1-a3f4-50434399d917": {
+                "sizeX": 8,
+                "sizeY": 2,
+                "row": 0,
+                "col": 16
+              }
+            },
+            "gridSettings": {
+              "backgroundColor": "#eeeeee",
+              "columns": 24,
+              "margin": 10,
+              "backgroundSizeMode": "100%"
+            }
+          }
+        }
+      }
+    },
+    "entityAliases": {
+      "a5c35689-f912-fd53-283c-a6aaf0aa3422": {
+        "id": "a5c35689-f912-fd53-283c-a6aaf0aa3422",
+        "alias": "Cultivation_aid",
+        "filter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "0ae17f30-fa9a-11eb-9ff0-27b56077cf87"
+          },
+          "resolveMultiple": false
+        }
+      }
+    },
+    "filters": {},
+    "timewindow": {
+      "displayValue": "",
+      "hideInterval": false,
+      "hideAggregation": false,
+      "hideAggInterval": false,
+      "hideTimezone": false,
+      "selectedTab": 0,
+      "realtime": {
+        "realtimeType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "quickInterval": "CURRENT_DAY"
+      },
+      "history": {
+        "historyType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "fixedTimewindow": {
+          "startTimeMs": 1628596320999,
+          "endTimeMs": 1628682720999
+        },
+        "quickInterval": "CURRENT_DAY"
+      },
+      "aggregation": {
+        "type": "AVG",
+        "limit": 2500
+      }
+    },
+    "settings": {
+      "stateControllerId": "entity",
+      "showTitle": false,
+      "showDashboardsSelect": true,
+      "showEntitiesSelect": true,
+      "showDashboardTimewindow": true,
+      "showDashboardExport": true,
+      "toolbarAlwaysOpen": true
+    }
+  },
+  "name": "Agriculture_data"
+}
